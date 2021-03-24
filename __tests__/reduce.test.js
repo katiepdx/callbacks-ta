@@ -5,7 +5,7 @@ describe('tests reduce function', () => {
     const addNums = (acc, item) => acc + item;
 
     const total = reduce([2, 4, 5], addNums);
-    expected = 13;
+    expected = 11;
 
     expect(total).toEqual(expected);
   });
